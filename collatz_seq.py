@@ -14,7 +14,6 @@ def collatz(number):
 
 try:
     collatz(int(input("Enter a number:")))
-
 except:
     print("You have to enter an integer")
     collatz(int(input("Enter a number:")))

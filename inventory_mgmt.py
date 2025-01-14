@@ -7,7 +7,7 @@ def displayInventory(inventory):
     numItems = 0
 
     for i, n in inventory.items():
-        numItems += n
+        numItems += n 
         print(f"{n} {i}")
 
     print(f"Total number of items: {numItems}")
